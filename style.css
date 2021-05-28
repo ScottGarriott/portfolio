@@ -1,0 +1,71 @@
+/* object styling? */
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #C6C5B9;
+}
+/* tag styling */
+p{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+h1 {
+  font-family: limelight;
+}
+
+h2 {
+  font-family: Pattaya, "comic sans";
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #546A7B;
+  padding: 20px;
+}
+
+hr {
+  color: #62929E;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-image: url ("images/d-20-logo.png");
+  background-color: #62929E;
+  border-radius: 50%;
+}
+
+header {
+  display: block;
+  background-color: #000814;
+  color: oldlace;
+  margin: 0px 0px 50px 0px;
+}
+/* nested styling? */
+main img {
+width: 300px;
+display: block;
+margin: auto;
+padding: auto;
+}
+
+footer li {
+  margin: auto;
+}
+/* pseudo classes */
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover{
+  color: white;
+}
+
+a:active{
+  color: blue;
+}
